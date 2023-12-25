@@ -1,0 +1,51 @@
+{
+  "name": "@discue/open-telemetry-tracing-noop",
+  "version": "0.0.0",
+  "description": "Drop-in replacement for @discue/open-telemetry-tracing-noop to disable tracing.",
+  "files": [
+    "lib"
+  ],
+  "exports": {
+    ".": "./lib/index.js",
+    "./instrumentation": "./lib/instrumentation.cjs"
+  },
+  "typesVersions": {
+    "*": {
+      "instrumentation": [
+        "lib/instrumentation"
+      ]
+    }
+  },
+  "bugs": {
+    "url": "https://github.com/discue/open-telemetry-tracing-noop"
+  },
+  "repository": {
+    "url": "https://github.com/discue/open-telemetry-tracing-noop/issues"
+  },
+  "scripts": {
+    "start": "functions-framework --target=api --signature-type=http",
+    "test": "mocha --timeout 10000 test/**/*spec.js --file test/global-mocha-setup.js",
+    "test:ci": "npm run test -- --forbid-only",
+    "coverage": "nyc c8 --100 npm run test:ci",
+    "lint": "npx eslint -c .eslintrc.cjs lib --ext .js,.jsx,.ts,.tsx",
+    "lint-test": "npx eslint -c .eslintrc.cjs test --ext .js,.jsx,.ts,.tsx",
+    "standard-version": "standard-version",
+    "create-types": "npx tsc lib/index.js --declaration --emitDeclarationOnly --allowJs",
+    "publish-version": "npm publish --access public",
+    "push-tags": "git push --follow-tags origin main",
+    "release-generic": "npm run push-tags && npm run create-types && npm run publish-version",
+    "release-minor": "npm run standard-version -- --release-as minor && npm run release-generic",
+    "release-major": "npm run standard-version -- --release-as major && npm run release-generic"
+  },
+  "author": "Stefan Pfaffel <spfaffel@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.3.10",
+    "eslint": "^8.56.0",
+    "express": "^4.18.2",
+    "mocha": "^10.2.0",
+    "nyc": "^15.1.0",
+    "standard-version": "^9.5.0",
+    "typescript": "^5.3.3"
+  }
+}
