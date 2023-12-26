@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.1](https://github.com/discue/open-telemetry-tracing-noop/issues/compare/v0.2.0...v0.2.1) (2023-12-26)
+
+
+### Bug Fixes
+
+* **span:** fix method chaining does not work ([505ce5b](https://github.com/discue/open-telemetry-tracing-noop/issues/commit/505ce5b134d39455fc3f2292cc8a1b64bf9ce399))
+
 ## [0.2.0](https://github.com/discue/open-telemetry-tracing-noop/issues/compare/v0.1.0...v0.2.0) (2023-12-26)
 
 
