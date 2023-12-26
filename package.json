@@ -1,6 +1,6 @@
 {
   "name": "@discue/open-telemetry-tracing-noop",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Drop-in replacement for @discue/open-telemetry-tracing-noop to disable tracing.",
   "files": [
     "lib"
