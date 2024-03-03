@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.3.0](https://github.com/discue/open-telemetry-tracing-noop/issues/compare/v0.2.1...v0.3.0) (2024-03-03)
+
+
+### Features
+
+* implement get trace ids function ([4b8814e](https://github.com/discue/open-telemetry-tracing-noop/issues/commit/4b8814e113c75f8254c8f510defc93dc9bbbfb3b))
+
+
+### Chores
+
+* **deps-dev:** bump eslint from 8.56.0 to 8.57.0 ([9951e4c](https://github.com/discue/open-telemetry-tracing-noop/issues/commit/9951e4c5f1d776c87935a3ab0ccf245e64fa9618))
+* **deps-dev:** bump mocha from 10.2.0 to 10.3.0 ([66c3bb5](https://github.com/discue/open-telemetry-tracing-noop/issues/commit/66c3bb5ead32c56fff8d36766d3b4c6b93d21ea6))
+
 ### [0.2.1](https://github.com/discue/open-telemetry-tracing-noop/issues/compare/v0.2.0...v0.2.1) (2023-12-26)
 
 
