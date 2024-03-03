@@ -1,7 +1,13 @@
 const { expect } = require('chai')
-const { createTracer } = require('../lib/index.js')
+const { createTracer, getActiveSpanAndTraceIds } = require('../lib/index.js')
 
 describe('Tracing', () => {
+    describe('.getActiveSpanAndTraceIds', () => {
+        it('returns an empty object', () => {
+            const result = getActiveSpanAndTraceIds()
+            expect(Object.keys(result)).to.have.length(0)
+        })
+    })
     describe('.createTracer', () => {
         describe('.withActiveSpan', () => {
             it('calls the callback with the span as first attribute', (done) => {
@@ -16,7 +22,7 @@ describe('Tracing', () => {
                 })
             })
         })
- 
+
         describe('.withActiveSpanSync', () => {
             it('calls the callback with the span as first attribute', (done) => {
                 const tracer = createTracer('test')
