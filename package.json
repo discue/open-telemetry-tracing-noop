@@ -46,7 +46,7 @@
     "eslint": "^9.26.0",
     "express": "^5.1.0",
     "globals": "^16.1.0",
-    "mocha": "^11.2.2",
+    "mocha": "^11.3.0",
     "nyc": "^17.1.0",
     "standard-version": "^9.5.0",
     "typescript": "^5.8.3"
