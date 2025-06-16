@@ -43,7 +43,7 @@
   "license": "MIT",
   "devDependencies": {
     "chai": "^4.3.10",
-    "eslint": "^9.28.0",
+    "eslint": "^9.29.0",
     "express": "^5.1.0",
     "globals": "^16.2.0",
     "mocha": "^11.5.0",
