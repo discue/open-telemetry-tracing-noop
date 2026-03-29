@@ -30,14 +30,9 @@
     "coverage": "nyc c8 --100 npm run test:ci",
     "lint": "npx eslint -c .eslintrc.cjs lib",
     "lint-test": "npx eslint -c .eslintrc.cjs test",
-    "standard-version": "standard-version",
     "create-types": "npx tsc lib/index.js --declaration --emitDeclarationOnly --allowJs",
     "remove-types": "find lib -name \"*.d.ts\" -type f -delete",
     "publish-version": "npm publish --access public",
-    "push-tags": "git push --follow-tags origin main",
-    "release-generic": "npm run push-tags && npm run create-types && npm run publish-version && npm run remove-types",
-    "release-minor": "npm run standard-version -- --release-as minor && npm run release-generic",
-    "release-major": "npm run standard-version -- --release-as major && npm run release-generic"
   },
   "author": "Stefan Pfaffel <spfaffel@gmail.com>",
   "license": "MIT",
@@ -49,7 +44,6 @@
     "globals": "^17.4.0",
     "mocha": "^11.7.5",
     "nyc": "^18.0.0",
-    "standard-version": "^9.5.0",
     "typescript": "^6.0.2"
   }
 }
