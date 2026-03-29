@@ -42,13 +42,14 @@
   "author": "Stefan Pfaffel <spfaffel@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
     "chai": "^4.3.10",
-    "eslint": "^9.39.2",
+    "eslint": "^10.1.0",
     "express": "^5.2.1",
     "globals": "^17.4.0",
     "mocha": "^11.7.5",
     "nyc": "^18.0.0",
     "standard-version": "^9.5.0",
-    "typescript": "^5.9.3"
+    "typescript": "^6.0.2"
   }
 }
