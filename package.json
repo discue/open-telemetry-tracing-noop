@@ -32,7 +32,7 @@
     "lint-test": "npx eslint -c .eslintrc.cjs test",
     "create-types": "npx tsc lib/index.js --declaration --emitDeclarationOnly --allowJs",
     "remove-types": "find lib -name \"*.d.ts\" -type f -delete",
-    "publish-version": "npm publish --access public",
+    "publish-version": "npm publish --access public"
   },
   "author": "Stefan Pfaffel <spfaffel@gmail.com>",
   "license": "MIT",
