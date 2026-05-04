@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 1.0.0 (2026-05-04)
+
+
+### Features
+
+* add noop modules ([4608cd0](https://github.com/discue/open-telemetry-tracing-noop/commit/4608cd0d4c6c61cc5ae642bfe354a0b573259d96))
+* export status-codes ([6504ffa](https://github.com/discue/open-telemetry-tracing-noop/commit/6504ffa0ae41a6cfa119c948b667959ff3153451))
+* implement get trace ids function ([4b8814e](https://github.com/discue/open-telemetry-tracing-noop/commit/4b8814e113c75f8254c8f510defc93dc9bbbfb3b))
+
+
+### Bug Fixes
+
+* **span:** fix method chaining does not work ([505ce5b](https://github.com/discue/open-telemetry-tracing-noop/commit/505ce5b134d39455fc3f2292cc8a1b64bf9ce399))
+
 ## [0.3.0](https://github.com/discue/open-telemetry-tracing-noop/issues/compare/v0.2.1...v0.3.0) (2024-03-03)
 
 
