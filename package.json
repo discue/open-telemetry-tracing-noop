@@ -44,6 +44,6 @@
     "globals": "^17.7.0",
     "mocha": "^11.7.6",
     "nyc": "^18.0.0",
-    "typescript": "^6.0.3"
+    "typescript": "^7.0.2"
   }
 }
