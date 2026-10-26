@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.3.2](https://github.com/discue/open-telemetry-tracing-noop/compare/open-telemetry-tracing-noop-v0.3.1...open-telemetry-tracing-noop-v0.3.2) (2026-10-26)
+
+
+### Miscellaneous Chores
+
+* **deps-dev:** bump eslint from 10.12.0 to 10.13.0 ([eee90c6](https://github.com/discue/open-telemetry-tracing-noop/commit/eee90c69a9ce0cb57f142c25d339b5648107fd4b))
+* **deps-dev:** bump eslint from 10.12.0 to 10.13.0 ([0b1b600](https://github.com/discue/open-telemetry-tracing-noop/commit/0b1b60072b0672adfd0f6789d6c308ed1988be66))
+
 ## [0.3.1](https://github.com/discue/open-telemetry-tracing-noop/compare/open-telemetry-tracing-noop-v0.3.0...open-telemetry-tracing-noop-v0.3.1) (2026-10-22)
 
 
